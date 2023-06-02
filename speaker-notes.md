@@ -7,3 +7,9 @@
 
 ##chapter2
 - code block only included when used actually.
+
+##chapter3
+- make it work on the browser
+- webpack undertands just JS & JSON
+- add css import
+
