@@ -1,5 +1,5 @@
 
-
+import React from 'react';
 import join from 'lodash/join';
 import {arrayJoin} from './util';
 import {stringSplit} from './util';
@@ -20,7 +20,7 @@ console.log('hello webpack!!!!!!');
 
 createRoot(document.body).render(<Hello name = 'John'/>)
 
-// console.log(mergeString('str1', 'str2'))
+console.log(mergeString('str1', 'str2'))
 
 
 /*
