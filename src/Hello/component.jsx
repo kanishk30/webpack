@@ -1,5 +1,5 @@
 import './styles.css'
 
 export function Hello(obj) {
-    return `Hello ${obj.name}`;
+    return <div> `Hello ${obj.name}`</div>;
 }

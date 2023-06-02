@@ -29,3 +29,7 @@
 - add ts-loader to resolve extensions
 - change config
 - tsconfig
+
+## chapter 7
+- react
+- plugins like babel
