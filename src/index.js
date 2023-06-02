@@ -4,6 +4,7 @@ import {stringSplit} from './util';
 
 import {Hello} from './Hello/component';
 
+import { mergeString } from '../merge';
 
 
 
@@ -14,10 +15,11 @@ console.log('hello webpack!!!!!!');
 
 console.log(Hello({name: 'John'}))
 
+console.log(mergeString('str1', 'str2'))
 
 
 /*
-const div = document.createElement('div');
+const div = document.createElement('di3v');
 div.innerHTML = Hello({name: 'John'});
 document.body.appendChild(div);
 */
