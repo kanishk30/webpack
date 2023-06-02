@@ -1,7 +1,7 @@
 import join from 'lodash/join';
 
 import {arrayJoin} from './util'
-// import {stringSplit} from './util'
+import {stringSplit} from './util'
 let obj = {
     a: {
         kanishk:2
