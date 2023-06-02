@@ -13,3 +13,11 @@ console.log(stringSplit('string to be split', ' '));
 console.log('hello webpack!!!!!!');
 
 console.log(Hello({name: 'John'}))
+
+
+
+/*
+const div = document.createElement('div');
+div.innerHTML = Hello({name: 'John'});
+document.body.appendChild(div);
+*/
