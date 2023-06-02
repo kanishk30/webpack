@@ -23,3 +23,9 @@
 - open file in browser should see the changes.
 - style-loader?
 - https://webpack.js.org/plugins/mini-css-extract-plugin/ ?
+
+## chapter 6
+- add typescript
+- add ts-loader to resolve extensions
+- change config
+- tsconfig

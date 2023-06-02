@@ -11,8 +11,15 @@ module.exports = {
               }
             ]
           },
+          // {
+          //   test: /\.tsx?$/,
+          //   use: 'ts-loader'
+          // },
         ]
     },
+    // resolve: {
+    //   extensions: ['.ts', '.js']
+    // },
     plugins: [new HtmlWebpackPlugin()],
 
 }
