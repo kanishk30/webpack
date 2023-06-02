@@ -13,3 +13,6 @@
 - webpack undertands just JS & JSON
 - add css import
 
+##chapter 4
+- loaders for css
+- add css-loaders dependency
