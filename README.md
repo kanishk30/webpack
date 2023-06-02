@@ -3,13 +3,20 @@
 - Reusable
 - Organised
 - Encapsulated
-Eg. CommonJS, AMD, ESM, 
+Eg. CommonJS, AMD, ESM - (module.md)
+### issues earlier
+- order was important for imports
+- globals / scoping 
 
 Not sure, how it works on browser. Compatibility with other file types.
 
 ## webpack
 - Let us write modules that work in browser
-- Code splitting
+- Code splitting, lazy loading
+- tree shaking with esm
+- source map
+- plugins
+- hot reload
 
 -- config
 -- CLI ; uses node api.
@@ -32,3 +39,6 @@ Not sure, how it works on browser. Compatibility with other file types.
 - gives access to webpack compiler api.
 - 80% of webpack is nuilt within its own plugins
 - use "Tapable" library. backbone of plugins in webpack.
+
+## webpack setup
+- covered step by step in `ch* branches`
