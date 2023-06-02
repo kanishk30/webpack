@@ -1,0 +1,28 @@
+{
+  "name": "webpack-learn",
+  "version": "1.0.0",
+  "description": "- Reusable - Organised - Encapsulated Eg. CommonJS, AMD, ESM,",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle:prod": "webpack --mode production",
+    "bundle:dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanishk30/webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanishk30/webpack/issues"
+  },
+  "homepage": "https://github.com/kanishk30/webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
